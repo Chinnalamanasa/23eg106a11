@@ -11,7 +11,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname,'app_server','views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -39,3 +39,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+app.set('view engine', 'pug');
