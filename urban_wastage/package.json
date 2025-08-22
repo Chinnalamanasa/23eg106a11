@@ -2,9 +2,10 @@
   "name": "urban-wastage",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
+"scripts": {
+  "start": "node server.js"
+}
+,
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
